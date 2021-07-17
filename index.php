@@ -38,33 +38,9 @@
       
   -->
 
-  <div class="col-12" id="footer">
-    <p>Copyright &copy; 2021, All Rights Reserved. <a target="_blank" href="https://salehahmed.carrd.co/"> Saleh Ahmed </a> </p>
+  <div class="col-12 fixed-top" id="marquee">
+    <marquee direction="right" bgcolor="white" scrollamount="15"> Copyright &copy; 2021, All Rights Reserved. <a target="_blank" href="https://salehahmed.carrd.co/"> Saleh Ahmed </a> </marquee>
   </div>
-
-<!-- <section id="cover" class="min-vh-100">
-    <div id="cover-caption">
-        <div class="container">
-            <div class="row text-white">
-                <div class="quote_main col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center p-4">
-                    
-                    <div class="px-2">
-                      <div class="quote-box">
-                        <p id="quotes"></p>
-                        <small id="author"></small>
-                      </div>
-                      
-                    </div>
-                    </div>
-                    
-                </div>
-                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
-                  <button id="genQuote">Fetch User Data</button>
-                  </div>
-              </div>
-        </div>
-    </div>
-</section> -->
 
   <section id="cover" class="min-vh-100">
     <div id="cover-caption">
@@ -79,7 +55,7 @@
               <small id="anime"> anime </small>
               <br>
               <br>
-              <br>
+              
               
               <p id="quote"> Press Button to generate a Quote </p>
 
@@ -89,7 +65,7 @@
 
             
         </div>
-        <br>
+        
         <br>
         <br>
         <button id="btn"> Generate Quote</button>
