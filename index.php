@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anime Quote</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 		
     <link rel="stylesheet" href="style/style.css">
+    
+    <link rel="icon" href="images/quotes.png" type="image/gif" sizes="16x16">
     
 </head>
 <body>
@@ -39,7 +41,7 @@
   -->
 
   <div class="col-12 fixed-top" id="marquee">
-    <marquee direction="right" bgcolor="white" scrollamount="15"> Copyright &copy; 2021, All Rights Reserved. <a target="_blank" href="https://salehahmed.carrd.co/"> Saleh Ahmed </a> </marquee>
+    <marquee direction="right" bgcolor="white" scrollamount="15" onmouseover="this.stop();" onmouseout="this.start();"> Copyright &copy; 2021, All Rights Reserved. <a target="_blank" href="https://salehahmed.carrd.co/"> Saleh Ahmed </a> </marquee>
   </div>
 
   <section id="cover" class="min-vh-100">
