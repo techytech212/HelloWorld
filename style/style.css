@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica;
+    font-size: 18px;
+    
+  }
+  
+
+  /**
+  .main{
+      padding-top: 20%;
+        min-height: 85vh;
+        
+
+  }
+  .container {
+          top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote-box {
+    border: 2px solid #ddd;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+  #quote {
+    color: #444;
+    text-align: center;
+    
+  }
+  #author {
+    float: right;
+    color: #888;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  #btn {
+    align-self: center;
+    border: 2px solid #666;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #btn:focus {
+    outline: none;
+  }
+  **/
+
+  #cover {
+    background: rgb(255, 255, 255) url('https://source.unsplash.com/1600x900/?anime') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#quote_main{
+
+  height: 70%;
+}
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#quote-box {
+  height: 100%;
+  padding: 30px 20px;
+  color:black;
+  
+  margin-bottom: 20px;}
+
+#anime{
+  color: rgb(70, 83, 117);
+  float: left;
+}
+
+#quote{
+  color: black;
+}
+
+#author {
+    float: right;
+    color: rgb(70, 83, 117);
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;}
+
+    #btn {
+        align-self: center;
+        border: 2px solid #666;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        color: #666;
+        font-weight: bold;
+        cursor: pointer;
+      } 
+
+      #btn:hover {
+          background-color: powderblue;
+      } 
+
+/* only used for background overlay not needed for centering */
+.quote-box:before {
+    content: '';
+    color: black;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+  #footer{
+      height: 70px;
+      background-color:white;
+      
+  }
+  #footer p {
+      padding-top: 5px;
+      text-align: center;
+    
+}
+
+
