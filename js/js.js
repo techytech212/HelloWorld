@@ -36,7 +36,7 @@
     // .then(data => console.log(data))
     .then(data => { 
 
-      anime.innerHTML = `anime:"${data.anime}"`;
+      anime.innerHTML = `anime: &nbsp"${data.anime}"`;
       
       quote.innerHTML = `"${data.quote}"`;
 
