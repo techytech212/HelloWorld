@@ -63,7 +63,7 @@
   **/
 
   #cover {
-    background: rgb(255, 255, 255) url('https://source.unsplash.com/1600x900/?anime') center center no-repeat;
+    background: rgb(255, 255, 255) url('https://source.unsplash.com/1600x900/?anime?random') center center no-repeat;
     background-size: cover;
     height: 100%;
     text-align: center;
